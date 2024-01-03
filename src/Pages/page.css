@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.submit-but {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.dropdown{
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.logout-btn{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
