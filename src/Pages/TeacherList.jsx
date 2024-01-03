@@ -21,13 +21,13 @@ function TeacherList() {
   const [stuinfo, setstuinfo] = useState("");
   return (
     <>
-    <button
+      <button
         className="logout-btn"
         onClick={() => {
           dispatch(changeLoggedIn(false));
           navigate("/");
         }}
-        >
+      >
         Log Out
       </button>
       <div className="container">

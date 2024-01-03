@@ -67,7 +67,7 @@ function SignUpPage() {
             setemail(e.target.value);
           }}
         />
-        <label htmlFor="pass">Enter Your Email</label>
+        <label htmlFor="pass">Enter Your Password</label>
         <input
           name="pass"
           type="password"
